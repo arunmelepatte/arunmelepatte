@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee House Cafe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+</head>
+<body>
+
+    <!--logo start-->
+    <div class="jumbotron text-center logo">
+        <img id="logoimg" src="img/logo-1.png" alt="LOGO" >
+    </div>
+    <!--logo end-->
+
+
+    <div id="body"> 
+        
+        <!--navigation bar start-->
+        <div id="navbar">
+            <a href="index.html">HOME</a>
+            <a href="aboutus.html">ABOUT US</a>
+            <a id="active" href="menu.html">MENU</a>
+            <a href="blogs.html">BLOGS</a>
+            <a href="contactus.html">CONTACT US</a>
+            <button> Online Order</button>
+            <div id="menu">
+                <i id="menubar" class="fas fa-bars"></i>
+            </div>
+        </div>
+        <!--navigation bar end-->
+
+
+        <!--menu list start-->
+        <div id="menubg">
+            <div id="menucard">
+                <h1>menu card</h1>
+                <hr>
+            </div>
+            <!--sandwich start-->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-4 sandwich">
+                        <img src="img/sandwich-1.jpg" alt="sandwich" width="220px" height="220px" class="img-rounded">
+                    </div>
+                    <div class="col-sm-8 sandwichlist">
+                        <h3>SANDWITCH</h3>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>Veg Grilled Sandwich</td>
+                                    <td id="rupee">99</td>
+                                </tr>
+                                <tr>
+                                    <td>Egg Mayo Grilled Sandwich</td>
+                                    <td id="rupee">129</td>
+                                </tr>
+                                <tr>
+                                    <td>Chicken Grilled Sandwich</td>
+                                    <td id="rupee">149</td>
+                                </tr>
+                                <tr>
+                                    <td>Club Sandwich (Veg/Non Veg)</td>
+                                    <td id="rupee">169/199</td>
+                                </tr>
+                                <tr>
+                                    <td>*Extra Cheese*</td>
+                                    <td id="rupee">29</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!--sandwich end-->
+
+            <!--burger start-->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-8 burgerlist">
+                        <h3>BURGER</h3>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>Aloo Tikki Burger</td>
+                                    <td id="rupee">79</td>
+                                </tr>
+                                <tr>
+                                    <td>Veg Burger</td>
+                                    <td id="rupee">99</td>
+                                </tr>
+                                <tr>
+                                    <td>Egg Mayo Burger</td>
+                                    <td id="rupee">129</td>
+                                </tr>
+                                <tr>
+                                    <td>Chicken Burger</td>
+                                    <td id="rupee">139</td>
+                                </tr>
+                                <tr>
+                                    <td>Big Mac (Veg/Non Veg)</td>
+                                    <td id="rupee">149/179</td>
+                                </tr>
+                                <tr>
+                                    <td>*Extra Cheese*</td>
+                                    <td id="rupee">29</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-sm-4 burger">
+                        <img src="img/burger-2.jpg" alt="burger" width="220px" height="220px" class="img-rounded">
+                    </div>
+                </div>
+            </div>
+            <!--burger end-->
+
+
+            <!--pizza start-->
+            <div class="container-fluid">
+                <div class="row pizabox">
+                    <div class="col-sm-4 pizza">
+                        <img src="img/pizza-2.jpg" alt="pizza" width="220px" height="220px" class="img-rounded">
+                    </div>
+                    <div class="col-sm-8 pizzalist">
+                        <h3>PIZZA</h3>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>Veg pizza</td>
+                                    <td id="rupee">149</td>
+                                </tr>
+                                <tr>
+                                    <td>Chessy Corn Pizza</td>
+                                    <td id="rupee">169</td>
+                                </tr>
+                                <tr>
+                                    <td>Margherita</td>
+                                    <td id="rupee">179</td>
+                                </tr>
+                                <tr>
+                                    <td>Barbeque</td>
+                                    <td id="rupee">249</td>
+                                </tr>
+                                <tr>
+                                    <td>Peri Peri</td>
+                                    <td id="rupee">249</td>
+                                </tr>
+                                <tr>
+                                    <td>Chicken Tikka</td>
+                                    <td id="rupee">299</td>
+                                </tr>
+                                <tr>
+                                    <td>Corn Chicken</td>
+                                    <td id="rupee">299</td>
+                                </tr>
+                                <tr>
+                                    <td>Pepper Chicken</td>
+                                    <td id="rupee">299</td>
+                                </tr>
+                                <tr>
+                                    <td>Garlic Chicken</td>
+                                    <td id="rupee">299</td>
+                                </tr>
+                                <tr>
+                                    <td>Chilli Chicken</td>
+                                    <td id="rupee">299</td>
+                                </tr>
+                                <tr>
+                                    <td>Kasha Mansho Pizza</td>
+                                    <td id="rupee">299</td>
+                                </tr>
+                                <tr>
+                                    <td>Prawn Malai Pizza</td>
+                                    <td id="rupee">319</td>
+                                </tr>
+                                <tr>
+                                    <td>*Extra Cheese*</td>
+                                    <td id="rupee">49</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!--pizza end-->
+
+
+            <!--coffee start-->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-8 coffeelist">
+                        <h3>COFFEE</h3>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>Normal Coffee</td>
+                                    <td id="rupee">30</td>
+                                </tr>
+                                 <tr>
+                                    <td>Cold Coffee</td>
+                                    <td id="rupee">50</td>
+                                </tr>
+                                <tr>
+                                    <td>Espresso</td>
+                                    <td id="rupee">90</td>
+                                </tr>
+                                <tr>
+                                    <td>Cafe Americano</td>
+                                    <td id="rupee">110</td>
+                                </tr>
+                                <tr>
+                                    <td>Cappuccino</td>
+                                    <td id="rupee">125</td>
+                                </tr>
+                                <tr>
+                                    <td>Cafe Latte</td>
+                                    <td id="rupee">140</td>
+                                </tr>
+                                <tr>
+                                    <td>Cafe Mocha</td>
+                                    <td id="rupee">150</td>
+                                </tr>
+                                <tr>
+                                    <td>Caramel Macchiato</td>
+                                    <td id="rupee">165</td>
+                                </tr>
+                                <tr>
+                                    <td>Turkish Cappuccino</td>
+                                    <td id="rupee">180</td>
+                                </tr>
+                                <tr>
+                                    <td>Mocha Frappe</td>
+                                    <td id="rupee">195</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-sm-4 coffee">
+                        <img src="img/coffee-2.jpg" alt="coffee" width="220px" height="220px" class="img-rounded">
+                    </div>
+                </div>
+            </div>
+            <!--coffee end-->
+
+            <!--juice start-->
+            <div class="container-fluid">
+                <div class="row juicebox">
+                    <div class="col-sm-4 juice">
+                        <img src="img/juice-2.jpg" alt="juices" width="220px" height="220px">
+                    </div>
+                    <div class="col-sm-8 juicelist">
+                        <h3>FRESH JUICE</h3>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>Lime Juice</td>
+                                    <td id="rupee">10</td>
+                                </tr>
+                                <tr>
+                                    <td>Mint Lime</td>
+                                    <td id="rupee">20</td>
+                                </tr>
+                                <tr>
+                                    <td>Ginger Lime</td>
+                                    <td id="rupee">30</td>
+                                </tr>
+                                <tr>
+                                    <td>Orange</td>
+                                    <td id="rupee">40</td>
+                                </tr>
+                                <tr>
+                                    <td>Pineapple</td>
+                                    <td id="rupee">45</td>
+                                </tr>
+                                <tr>
+                                    <td>Water Melon</td>
+                                    <td id="rupee">40</td>
+                                </tr>
+                                <tr>
+                                    <td>Grape</td>
+                                    <td id="rupee">50</td>
+                                </tr>
+                                <tr>
+                                    <td>Apple</td>
+                                    <td id="rupee">50</td>
+                                </tr>
+                                <tr>
+                                    <td>Green Apple</td>
+                                    <td id="rupee">55</td>
+                                </tr>
+                                <tr>
+                                    <td>Mosambi</td>
+                                    <td id="rupee">35</td>
+                                </tr>
+                                <tr>
+                                    <td>Lime Soda</td>
+                                    <td id="rupee">15</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!--juice end-->
+        </div>
+        <!--menu list end-->
+
+
+
+        <!--footer start-->
+        <footer>
+            <div id="footer1" class="container">
+                <div class="row">
+                    <div class="col-sm-3 getintouch">
+                        <div id="getintouchheading">
+                            <h3>
+                                Get In Touch
+                            </h3>
+                        </div>
+                        <div id="getintouchcontent">
+                            <p>
+                                Ground Floor, Survey No. 217/8, Express Garden, Kaloor - Kadavanthara Rd, Kochi, Kerala 680537
+                            </p>
+                        </div>
+                        <div id="getintouchcontent">
+                            <p>
+                                <a href=""><i class="fas fa-envelope"></i> coffeehouse@gmail.com</a>
+                            </p>
+                        </div>
+                        <div id="socialmedia">
+                            <p><i class="fas fa-at"></i> coffeehouse</p>
+                            <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter-square icon"></i></a>
+                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-square icon"></i></a>
+                            <a href="https://www.youtube.com/"><i class="fab fa-youtube-square icon"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fab fa-instagram-square icon"></i></a>
+                            <a href="https://www.linkedin.com/signup"><i class="fab fa-linkedin icon"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 popularlink">
+                        <div id="popularlinkheading">
+                            <h3>
+                                Popular Links
+                            </h3>
+                        </div>
+                        <div id="popularlinkcontent">
+                            <p>
+                                <a href="aboutus.html"><i class="fas fa-hand-point-right"></i>&emsp; About Us</a>
+                            </p>
+                        </div>
+                        <div id="popularlinkcontent">
+                            <p>
+                                <a href="contactus.html"><i class="fas fa-hand-point-right"></i>&emsp; Contact Us</a>
+                            </p>
+                        </div>
+                        <div id="popularlinkcontent">
+                            <p>
+                                <a href="onlineorder.html"><i class="fas fa-hand-point-right"></i>&emsp; Order</a>
+                            </p>
+                        </div>
+                        <div id="popularlinkcontent">
+                            <p>
+                                <a href="outlet.html"><i class="fas fa-hand-point-right"></i>&emsp; Outlet</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 usefullink">
+                        <div id="usefullinkheading">
+                            <h3>
+                                Useful Links
+                            </h3>
+                        </div>
+                        <div id="usefullinkcontent">
+                            <p>
+                                <a href="#"><i class="fas fa-hand-point-right"></i>&emsp; Terms of Use</a>
+                            </p>
+                        </div>
+                        <div id="usefullinkcontent">
+                            <p>
+                                <a href="#"><i class="fas fa-hand-point-right"></i>&emsp; Privacy Policy</a>
+                            </p>
+                        </div>
+                        <div id="usefullinkcontent">
+                            <p>
+                                <a href="#"><i class="fas fa-hand-point-right"></i>&emsp; Cookies</a>
+                            </p>
+                        </div>
+                        <div id="usefullinkcontent">
+                            <p>
+                                <a href="#"><i class="fas fa-hand-point-right"></i>&emsp; Help</a>
+                            </p>
+                        </div>
+                        <div id="usefullinkcontent">
+                            <p>
+                                <a href="#"><i class="fas fa-hand-point-right"></i>&emsp; FQAs</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 time">
+                        <div id="opening">
+                            <h3>
+                                opening hours
+                            </h3>
+                        </div>
+                        <div id="openingcontent">
+                            <p><i class="fas fa-clock"></i>&nbsp;&nbsp;&nbsp;8:00 AM - 9:00 PM</p>
+                            <p><i class="fas fa-calendar-alt"></i>&nbsp;&nbsp;&nbsp;monday - saturday</p>
+                        </div>
+                        <div id="booking">
+                            <h3>
+                                book your table
+                            </h3>
+                        </div>
+                        <div id="bookingcontent">
+                            <p>
+                                Lorem ipsum dolor sit amet, elit. Minima, enim.
+                            </p>
+                            <p id="num">+91 1234567890</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer2" class="container">
+                <p><i class="fas fa-copyright"></i>&nbsp;&nbsp;<span>site name</span>, all right reserved. designed by <span>arun</span></p>
+            </div>
+        </footer>
+        <!--footer end-->
+
+
+
+        <!-- top arrow start-->
+        <div id="topup">
+            <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+        <!-- top arrow end-->
+
+
+
+    </div>
+</body>
+</html>

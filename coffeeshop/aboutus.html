@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee House Cafe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+</head>
+
+<body>
+
+    <!--logo start-->
+    <div class="jumbotron text-center logo">
+        <img id="logoimg" src="img/logo-1.png" alt="LOGO">
+    </div>
+    <!--logo end-->
+
+
+    <div id="body">
+
+        <!--navigation bar start-->
+        <div id="navbar">
+            <a href="index.html">HOME</a>
+            <a id="active" href="aboutus.html">ABOUT US</a>
+            <a href="menu.html">MENU</a>
+            <a href="blogs.html">BLOGS</a>
+            <a href="contactus.html">CONTACT US</a>
+            <button> Online Order</button>
+            <div id="menu">
+                <i id="menubar" class="fas fa-bars"></i>
+            </div>
+        </div>
+        <!--navigation bar end-->
+
+        <!--about start-->
+        <div id="aboutbg">
+            <div id="about" class="container">
+                <h1>About Us</h1>
+                <hr>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard</p>
+            </div>
+            <div id="fourcontent" class="container">
+                <div id="firstrow" class="row">
+                    <div id="left" class="col-sm-6">
+                        <p id="head">Awesome Flavour</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard</p>
+                    </div>
+                    <div id="right" class="col-sm-6">
+                        <p id="head">Well Behaved</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard</p>
+                    </div>
+                </div>
+                <div id="secondrow" class="row">
+                    <div id="left" class="col-sm-6">
+                        <p id="head">24*7 Service</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard</p>
+                    </div>
+                    <div id="right" class="col-sm-6">
+                        <p id="head">best chef</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="aboutbg2">
+            <div id="aboutbg2content" class="container">
+                <div class="row">
+                    <div id="setone" class="col-sm-4">
+                        <p id="heading">we make the best quality of foods</p>
+                        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi suscipit hic, aut
+                            aperiam alias corporis. Lorem ipsum dolor sit amet, elit. Quasi</p>
+                    </div>
+                    <div id="settwo" class="col-sm-8">
+                        <div class="row">
+                            <div class="col-sm-4 box">
+                                <div id="box">
+                                    <i class="fas fa-hotdog"></i>
+                                    <p>sandwich</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 box">
+                                <div id="box">
+                                    <i class="fas fa-hamburger"></i>
+                                    <p>burger</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 box">
+                                <div id="box">
+                                    <i class="fas fa-pizza-slice"></i>
+                                    <p>pizza</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 box">
+                                <div id="box">
+                                    <i class="fas fa-coffee"></i>
+                                    <p>coffee</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 box">
+                                <div id="box">
+                                    <i class="fas fa-cocktail"></i>
+                                    <p>juice</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="aboutbg5" style="background-image: url(img/about5bg1.jpg);">
+            <div id="aboutbg5head">
+                <p id="h1">our facts</p>
+                <p id="h2">why we are unique? Have a look.</p>
+            </div>
+            <div class="counter">
+                <div id="aboutbg5content" class="container">
+                    <div class="row">
+                        <div id="happy" class="col-sm-4">
+                            <i class="fas fa-smile-beam"></i>
+                            <p class="counter-count">24638</p>
+                            <p>happy customers</p>
+                        </div>
+                        <div id="branch" class="col-sm-4">
+                            <i class="fas fa-store"></i>
+                            <p class="counter-count">6</p>
+                            <p>branches</p>
+                        </div>
+                        <div id="workers" class="col-sm-4">
+                            <i class="fas fa-users"></i>
+                            <p class="counter-count">157</p>
+                            <p>workers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $('.counter-count').each(function () {
+                $(this).prop('Counter', 0).animate({
+                    Counter: $(this).text()
+                }, {
+                    duration: 8000,
+                    easing: 'swing',
+                    step: function (now) {
+                        $(this).text(Math.ceil(now));
+                    }
+                });
+            });
+        </script>
+
+
+        <div id="aboutbg3">
+            <div id="aboutbg3head">
+                <p id="h1">our team</p>
+                <p id="h2">behind the taste</p>
+            </div>
+            <div id="chef" class="container">
+                <div class="row">
+                    <div id="chef1" class="col-sm-3">
+                        <div id="box">
+                            <img src="img/chefs/chefa.jpg" alt="">
+                            <div class="box-content">
+                                <p>John Peter</p>
+                                <ul>
+                                    <li id="instagram"><a href="https://www.instagram.com/" target="blank"><i
+                                                class="fab fa-instagram-square"></i></a></li>
+                                    <li id="facebook"><a href="https://www.facebook.com/" target="blank"><i
+                                                class="fab fa-facebook-square"></i></a></li>
+                                    <li id="twitter"><a href="https://twitter.com/?lang=en" target="blank"><i
+                                                class="fab fa-twitter-square"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div id="box">
+                            <img src="img/chefs/chefb.jpg" alt="">
+                            <div class="box-content">
+                                <p>Aleena Thomas</p>
+                                <ul>
+                                    <li id="instagram"><a href="https://www.instagram.com/" target="blank"><i
+                                                class="fab fa-instagram-square"></i></a></li>
+                                    <li id="facebook"><a href="https://www.facebook.com/" target="blank"><i
+                                                class="fab fa-facebook-square"></i></a></li>
+                                    <li id="twitter"><a href="https://twitter.com/?lang=en" target="blank"><i
+                                                class="fab fa-twitter-square"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div id="box">
+                            <img src="img/chefs/chefc.jpg" alt="">
+                            <div class="box-content">
+                                <p>Natasha</p>
+                                <ul>
+                                    <li id="instagram"><a href="https://www.instagram.com/" target="blank"><i
+                                                class="fab fa-instagram-square"></i></a></li>
+                                    <li id="facebook"><a href="https://www.facebook.com/" target="blank"><i
+                                                class="fab fa-facebook-square"></i></a></li>
+                                    <li id="twitter"><a href="https://twitter.com/?lang=en" target="blank"><i
+                                                class="fab fa-twitter-square"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div id="box">
+                            <img src="img/chefs/chefd.jpg" alt="">
+                            <div class="box-content">
+                                <p>Emanuel</p>
+                                <ul>
+                                    <li id="instagram"><a href="https://www.instagram.com/" target="blank"><i
+                                                class="fab fa-instagram-square"></i></a></li>
+                                    <li id="facebook"><a href="https://www.facebook.com/" target="blank"><i
+                                                class="fab fa-facebook-square"></i></a></li>
+                                    <li id="twitter"><a href="https://twitter.com/?lang=en" target="blank"><i
+                                                class="fab fa-twitter-square"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="aboutbg4">
+            <div id="aboutbg4head">
+                <p id="h1">our best</p>
+                <p id="h2">reasons to choose us</p>
+            </div>
+            <div id="aboutbg4content" class="container">
+                <div class="row">
+                    <div id="section1" class="col-sm-4">
+                        <div id="plate">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <div id="platehead">
+                            <h2>tasty foods</h2>
+                            <p>Dolor et sed amet eget volutp elit libero.
+                                timpus sed elit nibh quis dui, nunc tortor.</p>
+                        </div>
+                    </div>
+                    <div id="section2" class="col-sm-4">
+                        <div id="plate">
+                            <i class="fas fa-tag"></i>
+                        </div>
+                        <div id="platehead">
+                            <h2>quality products</h2>
+                            <p>Dolor et sed amet eget volutp elit libero.
+                                timpus sed elit nibh quis dui, nunc tortor.</p>
+                        </div>
+                    </div>
+                    <div id="section3" class="col-sm-4">
+                        <div id="plate">
+                            <i class="fas fa-shipping-fast"></i>
+                        </div>
+                        <div id="platehead">
+                            <h2>fastest delivery</h2>
+                            <p>Dolor et sed amet eget volutp elit libero.
+                                timpus sed elit nibh quis dui, nunc tortor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--about end-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--footer start-->
+        <footer>
+            <div id="footer1" class="container">
+                <div class="row">
+                    <div class="col-sm-3 getintouch">
+                        <div id="getintouchheading">
+                            <h3>
+                                Get In Touch
+                            </h3>
+                        </div>
+                        <div id="getintouchcontent">
+                            <p>
+                                Ground Floor, Survey No. 217/8, Express Garden, Kaloor - Kadavanthara Rd, Kochi, Kerala
+                                680537
+                            </p>
+                        </div>
+                        <div id="getintouchcontent">
+                            <p>
+                                <a href=""><i class="fas fa-envelope"></i> coffeehouse@gmail.com</a>
+                            </p>
+                        </div>
+                        <div id="socialmedia">
+                            <p><i class="fas fa-at"></i> coffeehouse</p>
+                            <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter-square icon"></i></a>
+                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-square icon"></i></a>
+                            <a href="https://www.youtube.com/"><i class="fab fa-youtube-square icon"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fab fa-instagram-square icon"></i></a>
+                            <a href="https://www.linkedin.com/signup"><i class="fab fa-linkedin icon"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 popularlink">
+                        <div id="popularlinkheading">
+                            <h3>
+                                Popular Links
+                            </h3>
+                        </div>
+                        <div id="popularlinkcontent">
+                            <p>
+                                <a href="aboutus.html"><i class="fas fa-hand-point-right"></i>&emsp; About Us</a>
+                            </p>
+                        </div>
+                        <div id="popularlinkcontent">
+                            <p>
+                                <a href="contactus.html"><i class="fas fa-hand-point-right"></i>&emsp; Contact Us</a>
+                            </p>
+                        </div>
+                        <div id="popularlinkcontent">
+                            <p>
+                                <a href="onlineorder.html"><i class="fas fa-hand-point-right"></i>&emsp; Order</a>
+                            </p>
+                        </div>
+                        <div id="popularlinkcontent">
+                            <p>
+                                <a href="outlet.html"><i class="fas fa-hand-point-right"></i>&emsp; Outlet</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 usefullink">
+                        <div id="usefullinkheading">
+                            <h3>
+                                Useful Links
+                            </h3>
+                        </div>
+                        <div id="usefullinkcontent">
+                            <p>
+                                <a href="#"><i class="fas fa-hand-point-right"></i>&emsp; Terms of Use</a>
+                            </p>
+                        </div>
+                        <div id="usefullinkcontent">
+                            <p>
+                                <a href="#"><i class="fas fa-hand-point-right"></i>&emsp; Privacy Policy</a>
+                            </p>
+                        </div>
+                        <div id="usefullinkcontent">
+                            <p>
+                                <a href="#"><i class="fas fa-hand-point-right"></i>&emsp; Cookies</a>
+                            </p>
+                        </div>
+                        <div id="usefullinkcontent">
+                            <p>
+                                <a href="#"><i class="fas fa-hand-point-right"></i>&emsp; Help</a>
+                            </p>
+                        </div>
+                        <div id="usefullinkcontent">
+                            <p>
+                                <a href="#"><i class="fas fa-hand-point-right"></i>&emsp; FQAs</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 time">
+                        <div id="opening">
+                            <h3>
+                                opening hours
+                            </h3>
+                        </div>
+                        <div id="openingcontent">
+                            <p><i class="fas fa-clock"></i>&nbsp;&nbsp;&nbsp;8:00 AM - 9:00 PM</p>
+                            <p><i class="fas fa-calendar-alt"></i>&nbsp;&nbsp;&nbsp;monday - saturday</p>
+                        </div>
+                        <div id="booking">
+                            <h3>
+                                book your table
+                            </h3>
+                        </div>
+                        <div id="bookingcontent">
+                            <p>
+                                Lorem ipsum dolor sit amet, elit. Minima, enim.
+                            </p>
+                            <p id="num">+91 1234567890</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer2" class="container">
+                <p><i class="fas fa-copyright"></i>&nbsp;&nbsp;<span>site name</span>, all right reserved. designed by
+                    <span>arun</span>
+                </p>
+            </div>
+        </footer>
+        <!--footer end-->
+
+
+
+        <!-- top arrow start-->
+        <div id="topup">
+            <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+        <!-- top arrow end-->
+
+    </div>
+</body>

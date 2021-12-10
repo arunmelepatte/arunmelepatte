@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee House Cafe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+</head>
+<body>
+    
+    <!--logo start-->
+    <div class="jumbotron text-center logo">
+        <img id="logoimg" src="img/logo-1.png" alt="LOGO" >
+    </div>
+    <!--logo end-->
+
+
+    <div id="body"> 
+        
+        <!--navigation bar start-->
+        <div id="navbar">
+            <a id="active" href="index.html">HOME</a>
+            <a href="aboutus.html">ABOUT US</a>
+            <a href="menu.html">MENU</a>
+            <a href="blogs.html">BLOGS</a>
+            <a href="contactus.html">CONTACT US</a>
+            <button> Online Order</button>
+            <div id="menu">
+                <i id="menubar" class="fas fa-bars"></i>
+            </div>
+        </div>
+        <!--navigation bar end-->
+
+
+        <!--Home start-->
+        <div>
+            <!--carousel start-->
+            <div class="container-fluid">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/carousel img/bg.jpg" alt="coffee background" width="100%">
+                            <div id="firstpagetext" class="carousel-caption">
+                                <h3>Take Your Zip</h3>
+                                <p>& <br> think a little bit</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/carousel img/bg1.jpg" alt="coffee background" width="100%">
+                            <div id="secondpagetext" class="carousel-caption">
+                                <h3>make your days are successful</h3>
+                                <p> -with us-</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/carousel img/bg2.jpg" alt="coffee background" width="100%">
+                            <div id="thirdpagetext" class="carousel-caption">
+                                <h3>take your zip</h3>
+
+                                <p>& <br> think a little bit</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/carousel img/bg3.jpg" alt="coffee background" width="100%">
+                            <div id="fourthpagetext" class="carousel-caption">
+                                <h3>make your days are successful</h3>
+                                <p>with us</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                </div>
+
+            </div>  
+            <!--carousel end-->     
+            
+            <!--about start-->
+            <div id="aboutbg">
+                <div id="about" class="container">
+                    <h1>About Us</h1>
+                    <hr>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                </div>
+                <div id="fourcontent" class="container">
+                    <div id="firstrow" class="row">
+                        <div id="left" class="col-sm-6">
+                            <p id="head">Awesome Flavour</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                        </div>
+                        <div id="right" class="col-sm-6">
+                            <p id="head">Well Behaved</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                        </div>
+                    </div>
+                    <div id="more">
+                        <a href="aboutus.html">
+                            <button id="morebutton">more</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--about start-->
+
+
+            <!--order section start-->
+            <div id="order">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p id="heading">choose your food & <br> get free delivery</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                            <button><i class="fas fa-shopping-cart"></i>&emsp; order</button>
+                        </div>
+                        <div class="col-sm-6">
+                            <p id="heading">earn your offers & <br> benefits </p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                            <button>learn more&emsp;<i class="fas fa-angle-double-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--order section end-->
+            <!--Gallery start-->
+            <div id="gallerybg">
+                <div id="gallery">
+                    <h1>Gallery</h1>
+                    <hr>
+                </div>
+                <div id="galleryimg" class="container-fluid">
+                    <div class="row">
+                        <div id="colone" class="col-sm-2">
+                            <div>
+                                <img src="img/gallery images/burger4.jpg" class="img-rounded" alt="burger" data-toggle="modal" data-target="#myModalone">
+                            </div>
+                            <div>
+                                <img src="img/gallery images/burger5.jpg" class="img-rounded" alt="burger" data-toggle="modal" data-target="#myModaltwo">
+                            </div>
+                        </div>
+                        <div id="coltwo" class="col-sm-2">
+                            <div>
+                                <img src="img/gallery images/pizza2.jpg" class="img-rounded" alt="pizza" data-toggle="modal" data-target="#myModalthree">
+                            </div>
+                            <div>
+                                <img src="img/gallery images/pizza3.jpg" class="img-rounded" alt="pizza" data-toggle="modal" data-target="#myModalfour">
+                            </div>
+                            <div>
+                                <img src="img/gallery images/pizza6.jpg" class="img-rounded" alt="pizza" data-toggle="modal" data-target="#myModalfive">
+                            </div>
+                        </div>
+                        <div id="colthree" class="col-sm-2">
+                            <div>
+                                <img src="img/gallery images/coffee1.jpg" class="img-rounded" alt="coffee" data-toggle="modal" data-target="#myModalsix">
+                            </div>
+                            <div>
+                                <img src="img/gallery images/coffee2.jpg" class="img-rounded" alt="coffee" data-toggle="modal" data-target="#myModalseven">
+                            </div>
+                            <div>
+                                <img src="img/gallery images/coffee3.jpg" class="img-rounded" alt="coffee" data-toggle="modal" data-target="#myModaleight">
+                            </div>
+                            <div>
+                                <img src="img/gallery images/coffee4.jpg" class="img-rounded" alt="coffee" data-toggle="modal" data-target="#myModalnine">
+                            </div>
+                        </div>
+                        <div id="colfour" class="col-sm-2">
+                            <div>
+                                <img src="img/gallery images/coffee5.jpg" class="img-rounded" alt="coffee" data-toggle="modal" data-target="#myModalten">
+                            </div>
+                            <div>
+                                <img src="img/gallery images/coffee6.jpg" class="img-rounded" alt="coffee" data-toggle="modal" data-target="#myModaleleven">
+                            </div>
+                            <div>
+                                <img src="img/gallery images/coffee7.jpg" class="img-rounded" alt="coffee" data-toggle="modal" data-target="#myModaltwelve">
+                            </div>
+                            <div>
+                                <img src="img/gallery images/coffee8.jpg" class="img-rounded" alt="coffee" data-toggle="modal" data-target="#myModalthirteen">
+                            </div>
+                        </div>
+                        <div id="colfive" class="col-sm-2">
+                            <div>
+                                <img src="img/gallery images/juice1.jpg" class="img-rounded" alt="juice" data-toggle="modal" data-target="#myModalfourteen">
+                            </div>
+                            <div>
+                                <img src="img/gallery images/juice2.jpg" class="img-rounded" alt="juice" data-toggle="modal" data-target="#myModalfifteen">
+                            </div>
+                            <div>
+                                <img src="img/gallery images/juice4.jpg" class="img-rounded" alt="juice" data-toggle="modal" data-target="#myModalsixteen">
+                            </div>
+                        </div>
+                        <div id="colsix" class="col-sm-2">
+                            <div>
+                                <img src="img/gallery images/sandwich1.jpg" class="img-rounded" alt="sandwich" data-toggle="modal" data-target="#myModalseventeen">
+                            </div>
+                            <div>
+                                <img src="img/gallery images/sandwich3.jpg" class="img-rounded" alt="sandwich" data-toggle="modal" data-target="#myModaleighteen">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--modal-->
+            <div>
+                <div class="modal fade" id="myModalone" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/gallery images/burger4 lg.jpg" alt="burger">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModaltwo" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/gallery images/burger5 lg.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModalthree" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/gallery images/pizza2 lg.jpg" alt="burger">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModalfour" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/gallery images/pizza3 lg.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModalfive" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/gallery images/pizza6 lg.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModalsix" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/gallery images/coffee1 lg.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModalseven" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/gallery images/coffee2 lg.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModaleight" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/gallery images/coffee3 lg.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModalnine" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/gallery images/coffee4 lg.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModalten" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/gallery images/coffee5 lg.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModaleleven" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/gallery images/coffee6 lg.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModaltwelve" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/gallery images/coffee7 lg.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModalthirteen" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/gallery images/coffee8 lg.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModalfourteen" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/gallery images/juice1 lg.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModalfifteen" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/gallery images/juice2 lg.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModalsixteen" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/gallery images/juice4 lg.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModalseventeen" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/gallery images/sandwich1 lg.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModaleighteen" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/gallery images/sandwich3 lg.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Gallery end-->
+
+            <!--testimonials start-->
+            <div id="testimonialbg">
+                <div id="testimonial">
+                    <h1>Testimonials</h1>
+                    <hr>
+                </div>
+                <div class="container">
+                    <div id="mytestimoni" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <i id="leftquotation" class="fas fa-quote-left"></i>
+                                <p id="comment">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                     Assumenda perferendis in expedita hic sapiente! Aspernatur pariatur consequuntur suscipit placeat nemo!
+                                </p>
+                                <i id="rightquotation"  class="fas fa-quote-right"></i>
+                                <div id="name">
+                                    <h4>Name</h4>
+                                    <p>career</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <i id="leftquotation"  class="fas fa-quote-left"></i>
+                                <p  id="comment">Sed in metus libero. Sed volutpat eget dui ut tempus.
+                                     Fusce fringilla tincidunt laoreet Morbi ac metus vitae diam scelerisque malesuada eget eu mauris.
+                                     Cras varius lorem ac velit pharetra, non scelerisque mi vulputate. Phasellus bibendum.
+                                </p>
+                                <i id="rightquotation"  class="fas fa-quote-right"></i>
+                                <div id="name">
+                                    <h4>Name</h4>
+                                    <p>career</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <i id="leftquotation"  class="fas fa-quote-left"></i>
+                                <p  id="comment">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                     Tempore reiciendis saepe enim odio laboriosam nostrum illo nesciunt repellat totam. Molestias.
+                                </p>
+                                <i id="rightquotation"  class="fas fa-quote-right"></i>
+                                <div id="name">
+                                    <h4>Name</h4>
+                                    <p>career</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <i id="leftquotation"  class="fas fa-quote-left"></i>
+                                <p id="comment">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                     Assumenda perferendis in expedita hic sapiente! Aspernatur pariatur consequuntur suscipit placeat nemo!
+                                </p>
+                                <i id="rightquotation"  class="fas fa-quote-right"></i>
+                                <div id="name">
+                                    <h4>Name</h4>
+                                    <p>career</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#mytestimoni" data-slide="prev">
+                            <i id="arrow" class="fas fa-caret-left"></i>
+                        </a>
+                        <a class="right carousel-control" href="#mytestimoni" data-slide="next">
+                            <i id="arrow" class="fas fa-caret-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--testimonials end-->
+        </div>
+        <!--Home end-->
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <!--footer start-->
+        <footer>
+            <div id="footer1" class="container">
+                <div class="row">
+                    <div class="col-sm-3 getintouch">
+                        <div id="getintouchheading">
+                            <h3>
+                                Get In Touch
+                            </h3>
+                        </div>
+                        <div id="getintouchcontent">
+                            <p>
+                                Ground Floor, Survey No. 217/8, Express Garden, Kaloor - Kadavanthara Rd, Kochi, Kerala 680537
+                            </p>
+                        </div>
+                        <div id="getintouchcontent">
+                            <p>
+                                <a href=""><i class="fas fa-envelope"></i> coffeehouse@gmail.com</a>
+                            </p>
+                        </div>
+                        <div id="socialmedia">
+                            <p><i class="fas fa-at"></i> coffeehouse</p>
+                            <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter-square icon"></i></a>
+                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-square icon"></i></a>
+                            <a href="https://www.youtube.com/"><i class="fab fa-youtube-square icon"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fab fa-instagram-square icon"></i></a>
+                            <a href="https://www.linkedin.com/signup"><i class="fab fa-linkedin icon"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 popularlink">
+                        <div id="popularlinkheading">
+                            <h3>
+                                Popular Links
+                            </h3>
+                        </div>
+                        <div id="popularlinkcontent">
+                            <p>
+                                <a href="aboutus.html"><i class="fas fa-hand-point-right"></i>&emsp; About Us</a>
+                            </p>
+                        </div>
+                        <div id="popularlinkcontent">
+                            <p>
+                                <a href="contactus.html"><i class="fas fa-hand-point-right"></i>&emsp; Contact Us</a>
+                            </p>
+                        </div>
+                        <div id="popularlinkcontent">
+                            <p>
+                                <a href="onlineorder.html"><i class="fas fa-hand-point-right"></i>&emsp; Order</a>
+                            </p>
+                        </div>
+                        <div id="popularlinkcontent">
+                            <p>
+                                <a href="outlet.html"><i class="fas fa-hand-point-right"></i>&emsp; Outlet</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 usefullink">
+                        <div id="usefullinkheading">
+                            <h3>
+                                Useful Links
+                            </h3>
+                        </div>
+                        <div id="usefullinkcontent">
+                            <p>
+                                <a href="#"><i class="fas fa-hand-point-right"></i>&emsp; Terms of Use</a>
+                            </p>
+                        </div>
+                        <div id="usefullinkcontent">
+                            <p>
+                                <a href="#"><i class="fas fa-hand-point-right"></i>&emsp; Privacy Policy</a>
+                            </p>
+                        </div>
+                        <div id="usefullinkcontent">
+                            <p>
+                                <a href="#"><i class="fas fa-hand-point-right"></i>&emsp; Cookies</a>
+                            </p>
+                        </div>
+                        <div id="usefullinkcontent">
+                            <p>
+                                <a href="#"><i class="fas fa-hand-point-right"></i>&emsp; Help</a>
+                            </p>
+                        </div>
+                        <div id="usefullinkcontent">
+                            <p>
+                                <a href="#"><i class="fas fa-hand-point-right"></i>&emsp; FQAs</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 time">
+                        <div id="opening">
+                            <h3>
+                                opening hours
+                            </h3>
+                        </div>
+                        <div id="openingcontent">
+                            <p id="wroktime"><i class="fas fa-clock"></i>&nbsp;&nbsp;&nbsp;8:00 AM - 9:00 PM</p>
+                            <p><i class="fas fa-calendar-alt"></i>&nbsp;&nbsp;&nbsp;monday - saturday</p>
+                        </div>
+                        <div id="booking">
+                            <h3>
+                                book your table
+                            </h3>
+                        </div>
+                        <div id="bookingcontent">
+                            <p>
+                                Lorem ipsum dolor sit amet, elit. Minima, enim.
+                            </p>
+                            <p id="num">+91 1234567890</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer2" class="container">
+                <p><i class="fas fa-copyright"></i>&nbsp;&nbsp;<span>site name</span>, all right reserved. designed by <span>arun</span></p>
+            </div>
+        </footer>
+        <!--footer end-->
+
+
+
+        <!-- top arrow start-->
+        <div id="topup">
+            <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+        <!-- top arrow end-->
+    </div>
+</body>
+
+
+    

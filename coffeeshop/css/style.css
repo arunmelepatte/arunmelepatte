@@ -1,0 +1,1198 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cinzel:wght@600&family=IM+Fell+English+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Poppins:wght@600&family=Signika+Negative&family=Stick+No+Bills:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Fjalla+One&family=Jost:wght@600&family=Lobster&family=Merienda&family=Secular+One&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Josefin+Sans:wght@600&family=M+PLUS+1p:wght@500&family=Montserrat:wght@300&family=Mukta:wght@600&family=Nanum+Gothic&family=Source+Sans+Pro:wght@600&display=swap');
+body{
+    margin: 0px;
+}
+#body{
+    background-color: rgb(243, 243, 243);
+}
+
+
+
+/*logo start*/
+.logo{
+    background-color: rgb(243, 243, 243) !important;
+    margin: 0px !important;
+}
+#logoimg{
+    filter: drop-shadow(2px 2px 2px);
+}
+/*logo end*/
+
+
+/*navigation bar start*/
+#navbar{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(52, 52, 52);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+#navbar a{
+    margin: 0px;
+    font-family: 'Cinzel', serif;
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 14px 27px;
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+    width: 14%;
+}
+#navbar a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#navbar a#active{
+    background-color: rgb(0, 0, 0);
+}
+#navbar button{
+    font-family: 'Stick No Bills', sans-serif;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 9px 20px;
+    margin-left: 150px;
+    margin-top: 7px;
+    border-radius: 50px;
+    background-color: rgb(233, 220, 190);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    transition: .25s;
+}
+#navbar button:hover{
+    color: rgb(243, 243, 243);
+    background-color: rgb(255, 115, 0);
+    transition: .25s;
+}
+#navbar #menu{
+    margin-right: 60px;
+    margin-top: 6px;
+    border-radius: 50%;
+    float: right;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    background-color: rgb(233, 220, 190);
+    transition: .5s;
+}
+#navbar #menu:hover{
+    background-color: rgb(255, 115, 0);
+    transition: .5s;
+}
+#navbar #menu #menubar{
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: .5s;
+}
+/*navigation bar end*/
+
+
+/*Home start*/
+
+
+/*carousel*/
+#myCarousel{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#firstpagetext{
+    color: rgba(243, 243, 243, 1);
+    bottom: 40%;
+}
+#firstpagetext h3{
+    font-size: 70px;
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+}
+#firstpagetext p{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+#secondpagetext{
+    color: rgba(243, 243, 243, 1);
+    bottom: 20%;
+    right: 70%;
+}
+#secondpagetext h3{
+    font-size: 70px;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+}
+#secondpagetext p{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 35px;
+}
+#thirdpagetext{
+    bottom: 20%;
+    left: 70%;
+}
+#thirdpagetext h3{
+    font-size: 70px;
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+}
+#thirdpagetext p{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+#fourthpagetext h3{
+    font-size: 70px;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+}
+#fourthpagetext p{
+    font-family: 'Secular One', sans-serif;
+    font-size: 30px;
+}
+
+
+
+/*about us*/
+/*section 1*/
+#aboutbg{
+    height: 619px;
+    background-color: rgb(142, 139, 130);
+}
+#about{
+    padding: 70px 400px 70px 400px;
+}
+#about h1{
+    color: rgb(243, 243, 243);
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px !important;
+}
+#about hr{
+    margin-top: 0px !important;
+    border: 1px solid rgb(243, 243, 243)!important;
+    border-radius: 7px;
+    width: 80px;
+}
+#about p{
+    color: rgb(243, 243, 243);
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+#fourcontent{
+    color: rgb(243, 243, 243);
+    text-align: center;
+    padding: 0px 200px 0px 200px;
+}
+#fourcontent #left{
+    padding-right: 50px;
+}
+#fourcontent #right{
+    padding-left: 50px;
+}
+
+#fourcontent #secondrow{
+    margin-top: 30px;
+}
+#fourcontent #head{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+#fourcontent p{
+    font-family: 'Cairo', sans-serif;
+}
+#more{
+    padding-top: 90px;
+}
+#morebutton{
+    font-family: 'Signika Negative', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(233, 220, 190);
+    padding: 5px 30px 5px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: .25s;
+}
+#morebutton:hover{
+    color: rgb(243, 243, 243);
+    background-color: rgb(142, 139, 130);
+    border-bottom: 2px solid rgb(243, 243, 243);
+    transition: .25s;
+}
+
+
+/*section 2*/
+#aboutbg2content{
+    padding: 20px;
+}
+#aboutbg2content #setone{
+    padding: 20px;
+    color: brown;
+}
+#aboutbg2content #setone #heading{
+    font-family: 'Mukta', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+#aboutbg2content #setone #para{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+#aboutbg2content #settwo{
+    padding: 10px;
+}
+#aboutbg2content #settwo #box{
+    font-family: 'Mukta', sans-serif;
+    background-color: white;
+    margin-top: 20px;
+    padding: 60px 30px 40px 30px;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    color: brown;
+    transition: .25s;
+}
+#aboutbg2content #settwo #box:hover{
+    background-color: rgb(255, 247, 224);
+    color: chocolate;
+    transition: .25s;
+
+}
+#aboutbg2content #settwo #box i{
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+
+/*section 3*/
+#aboutbg3{
+    background-color: white;
+}
+#aboutbg3head #h1{
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 60px;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#aboutbg3head #h2{
+    font-family: 'Exo 2', sans-serif;
+    padding: 0px 20px 20px 20px;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+}
+#chef{
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+#chef img{
+    width: 262px;
+    height: 318px;
+
+}
+#chef .box-content{
+    font-family: 'M PLUS 1p', sans-serif;
+    color: white;
+    width: 262px;
+    height: 318px;
+    position: absolute;
+    bottom: 0;
+    font-size: 24px;
+    text-align: center;
+    z-index: 0;
+    background-color: black;
+    transition: .5s;
+    padding-top: 220px;
+    opacity: 0;
+}
+#chef .box-content:hover{
+    transition: .5s;
+    opacity: 1;
+    padding-top: 120px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#chef .box-content ul{
+    font-size: 40px;
+    transition: .25s;
+    padding: 0;
+
+}
+#chef .box-content ul a{
+    color: rgb(255, 102, 0);
+}
+#chef .box-content ul a:hover{
+    color: rgba(255, 102, 0, .7);
+}
+#chef .box-content li{
+    display: inline-block;
+}
+/*section 4*/
+#aboutbg4head #h1{
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 60px;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#aboutbg4head #h2{
+    font-family: 'Exo 2', sans-serif;
+    padding: 0px 20px 20px 20px;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+}
+#aboutbg4content{
+    text-align: center;
+    padding: 20px 0px 50px 0px;
+}
+#aboutbg4content p{
+    font-family: 'Nanum Gothic', sans-serif;
+    padding-top: 10px;
+    
+}
+#aboutbg4content h2{
+    font-family: 'Mukta', sans-serif;
+    text-transform: capitalize;
+}
+#aboutbg4content #section1{
+    padding-top: 20px;
+
+}
+#aboutbg4content #section1 #plate{
+    background-color: chocolate;
+    box-shadow: 0px 0px 10px rgb(63, 63, 63);
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    display: inline-block;
+    height: 140px;
+    width: 140px;
+    line-height: 140px;
+    border-radius: 50%;
+}
+#aboutbg4content #section2{
+    padding-top: 20px;
+
+}
+#aboutbg4content #section2 #plate{
+    background-color: chocolate;
+    box-shadow: 0px 0px 10px rgb(63, 63, 63);
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    display: inline-block;
+    height: 140px;
+    width: 140px;
+    line-height: 140px;
+    border-radius: 50%;
+}
+#aboutbg4content #section3{
+    padding-top: 20px;
+
+}
+#aboutbg4content #section3 #plate{
+    background-color: chocolate;
+    box-shadow: 0px 0px 10px rgb(63, 63, 63);
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    display: inline-block;
+    height: 140px;
+    width: 140px;
+    line-height: 140px;
+    border-radius: 50%;
+}
+#aboutbg4content #platehead{
+    padding-top: 15px;
+}
+
+/*section 5*/
+#aboutbg5{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 100%;
+}
+#aboutbg5content, #aboutbg5head{
+    color: white;
+}
+#aboutbg5head{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#aboutbg5head #h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
+}
+#aboutbg5head #h2{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 32px;
+}
+#aboutbg5content #happy{
+    text-align: left;
+    
+}
+#aboutbg5content #happy i{
+    font-size: 50px;
+}
+#aboutbg5content #branch{
+    text-align: center;
+
+}
+#aboutbg5content #branch i{
+    font-size: 50px;
+}
+#aboutbg5content #workers{
+    text-align: right;
+    
+}
+#aboutbg5content #workers i{
+    font-size: 50px;
+}
+#aboutbg5content .counter-count{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+}
+#aboutbg5content p{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+/*order section*/
+#order{
+    background-color: rgb(243, 243, 243);
+    padding: 50px 0px 30px 0px;
+    color: rgb(52, 52, 52);
+}
+#order #heading{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+#order p{
+    padding-top: 30px;
+    font-family: 'Cairo', sans-serif;
+}
+#order button{
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(243, 243, 243);
+    background-color: rgb(142, 139, 130);
+    margin-top: 50px;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 40px;
+    transition: .25s;
+}
+#order button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(243, 243, 243);
+    transition: .25s;
+}
+
+
+
+
+/*gallery*/
+#gallerybg{
+    background-color: rgb(233, 220, 190);
+    width: 100%;
+    height: 1400px;
+}
+#gallery{
+    padding-top: 30px;
+}
+#gallery h1{
+    color: rgb(52, 52, 52);
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px !important;
+}
+#gallery hr{
+    margin-top: 0px !important;
+    border: 1px solid rgb(52, 52, 52)!important;
+    border-radius: 7px;
+    width: 80px;
+}
+#galleryimg{
+    padding-top: 30px;
+}
+#galleryimg img{
+    margin-top: 15px;
+    border-radius: 40px;
+    transition: .25s;
+}
+#galleryimg img:hover{
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, .7);
+    transition: .25s;
+    cursor: pointer;
+}
+#galleryimg #colone{
+    margin-top: 23%;
+}
+#galleryimg #coltwo{
+    margin-top: 12.5%;
+}
+#galleryimg #colfive{
+    margin-top: 12.5%;
+}
+#galleryimg #colsix{
+    margin-top: 23%;
+}
+
+
+
+
+
+/*testimonial start*/
+#testimonialbg{
+    padding-top: 50px;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+}
+#testimonial h1{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px !important;
+}
+#testimonial hr{
+    margin-top: 0px !important;
+    border: 1px solid rgb(52, 52, 52)!important;
+    border-radius: 7px;
+    width: 80px;
+}
+#mytestimoni{
+    color: rgb(52, 52, 52);
+    height: 604px;
+    padding: 50px;
+}
+#mytestimoni #leftquotation{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+#mytestimoni #rightquotation{
+    float: right;
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-right: 60px;
+}
+#mytestimoni #comment{
+    font-family: 'Merienda', cursive;
+    padding: 100px 100px 100px 150px;
+}
+#mytestimoni #name{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    padding: 60px 20px 20px 20px;
+    float: right;
+    text-transform: capitalize;
+}
+#mytestimoni a{
+    background-image: none;
+}
+#mytestimoni #arrow{
+    font-size: 50px;
+    color: rgb(142, 139, 130);
+    position: absolute;
+    top: 50%;
+}
+
+/*Home ending*/
+
+
+
+
+/*menu start*/
+
+/*menulist bg start*/
+#menubg{
+    background-color: rgb(245, 240, 230);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 0px 70px 0px 70px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+}
+#menucard h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 50px 80px 20px 80px;
+    margin: 0px;
+}
+#menucard hr{
+    color: black;
+    margin-top: 0px !important;
+    border: 1px solid rgb(52, 52, 52)!important;
+    border-radius: 7px;
+    width: 80px;
+}
+
+
+/*common table start*/
+#menubg .table tr{
+    font-weight: 500;
+    font-size: 17px;
+    font-family: 'Neucha', cursive;
+    color: rgb(49, 19, 10);
+    
+}
+#menubg .table tr:hover{
+    font-weight: 600;
+    background-color: blanchedalmond;
+}
+
+/*sandwich start*/
+.sandwich{
+    text-align: center;
+    padding: 40px;   
+}
+.sandwich img{
+    border: 15px solid rgb(245, 240, 230);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+}
+.sandwich img:hover{
+    box-shadow: none
+}
+.sandwichlist h3{
+    font-family: 'IM Fell English SC', serif;
+    color: ivory;
+    background-color: rgb(80, 71, 59);
+    padding: 14px 16px;
+    border-radius: 12px;
+}
+
+/*burger start*/
+.burger{
+    margin-top: 20px;
+    text-align: center;
+    padding: 40px;   
+}
+.burger img{
+    border: 15px solid rgb(245, 240, 230);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+}
+.burger img:hover{
+    box-shadow: none;
+}
+.burgerlist h3{
+    font-family: 'IM Fell English SC', serif;
+    color: ivory;
+    background-color: rgb(80, 71, 59);
+    padding: 14px 16px;
+    border-radius: 12px;
+}
+
+/*pizza start*/
+.pizza{
+    margin-top: 170px;
+    text-align: center;
+    padding: 30px;   
+}
+.pizza img{
+    border: 15px solid rgb(245, 240, 230);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+}
+.pizza img:hover{
+    box-shadow: none;
+}
+.pizzalist h3{
+    font-family: 'IM Fell English SC', serif;
+    color: ivory;
+    background-color: rgb(80, 71, 59);
+    padding: 14px 16px;
+    border-radius: 12px;
+}
+
+/*coffee start*/
+.coffee{
+    margin-top: 150px;
+    text-align: center;
+    padding: 30px;   
+}
+.coffee img{
+    border: 15px solid rgb(245, 240, 230);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+}
+.coffee img:hover{
+    box-shadow: none;
+}
+.coffeelist h3{
+    font-family: 'IM Fell English SC', serif;
+    color: ivory;
+    background-color: rgb(80, 71, 59);
+    padding: 14px 16px;
+    border-radius: 12px;
+}
+
+/*juice start*/
+.juice{
+    margin-top: 170px;
+    text-align: center;
+    padding: 30px;   
+}
+.juice img{
+    border: 15px solid rgb(245, 240, 230);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+}
+.juice img:hover{
+    box-shadow: none;
+}
+.juicelist h3{
+    font-family: 'IM Fell English SC', serif;
+    color: ivory;
+    background-color: rgb(80, 71, 59);
+    padding: 14px 16px;
+    border-radius: 12px;
+}
+
+
+
+#rupee{
+    text-align: right;
+}
+
+/*menu end*/
+
+
+
+/*bloge page start*/
+#blogh1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-transform: capitalize;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: rgb(77, 56, 44);
+}
+#blogh2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    
+}
+#blogh2 hr{
+    margin-top: 0px !important;
+    border: 1px solid rgb(52, 52, 52)!important;
+    border-radius: 7px;
+    width: 80px;
+}
+#blogcontent #row2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#blogcontent #blogdate p{
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 184px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.699);
+    padding: 5px;
+}
+#blogcontent #content #h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#blogcontent #content p{
+    padding-top: 0px;
+}
+#blogcontent ul{
+    font-family: 'Ubuntu', sans-serif;
+    float: left;
+    list-style-type: none;
+    margin: 0px 0px 15px 0px;
+    padding: 0px;
+}
+#blogcontent ul li{
+    cursor: pointer;;
+    display: inline-block;
+    padding: 0px 10px 0px 15px;
+    font-size: 17px;
+    border-left: 0.5px solid rgba(124, 124, 124, 0.767);
+}
+#blogcontent ul #name{
+    padding-left: 0px !important;
+    border-left: none;
+}
+#blogcontent ul li a{
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+}
+#blogcontent ul li a:hover{
+    color: brown;
+}
+#row3 ul{
+    margin-bottom: 40px;
+    margin-left: 15px;
+    padding-left: 40%;
+    list-style-type: none;
+}
+#row3 ul li{
+    display: inline-block;
+    padding: 8px 15px 8px 15px;
+    font-size: 18px;  
+    border-radius: 50%;
+    transition: .15s; 
+}
+#row3 ul li.active{
+    background-color: rgb(52, 52, 52);
+    color: rgb(243, 243, 243);
+}
+#row3 ul li:hover{
+    background-color: rgba(52, 52, 52, .5);
+    color: rgb(243, 243, 243);
+    transition: .15s;
+}
+#row3 ul li a{
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+#row3 ul li.active a{
+    color: rgb(243, 243, 243);
+}
+/*bloge page end*/
+
+
+
+
+
+
+/*contact starting*/
+#contactbg{
+    background-color: rgb(243, 243, 243);
+}
+#contacthead h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 120px 80px 10px 80px;
+    margin: 0px;
+    
+}
+#contacthead hr{
+    margin-top: 0px !important;
+    border: 1px solid rgb(52, 52, 52)!important;
+    border-radius: 7px;
+    width: 80px;
+}
+#contactboxes i{
+    color: #77452c;
+    font-size: 40px;
+    padding: 20px;
+}
+
+#contactboxes #direction{
+    background-color: rgb(230, 230, 230);
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding: 50px;
+    text-transform: capitalize;
+    height: 360px;
+    border-radius: 50px 0px 0px 0px;
+}
+#contactboxes #phone{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    padding: 50px;
+    text-transform: capitalize;
+    width: 390px;
+    height: 360px;
+}
+#contactboxes #phone a{
+    text-decoration: none;
+    color: black;
+}
+#contactboxes #phone a:hover{
+    text-decoration: none;
+    color: rgb(231, 3, 3);
+}
+#contactboxes #time{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    padding: 50px;
+    text-transform: capitalize;
+    width: 390px;
+    height: 360px;
+    border-radius: 0px 50px 0px 0px;
+}
+#message{
+    background-color: rgb(230, 230, 230);
+    padding: 50px;
+}
+#message form{
+    margin-left: 25%;
+}
+#Names {
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+  }
+  
+#inputs {
+    font-family: 'Raleway', sans-serif;
+    float: left;
+    width: 40%;
+    margin-top: 6px;
+  }
+#message input,textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+  
+form label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+#maps{
+    padding: 0px;
+}
+#submit{
+    text-align: right;
+    margin-right: 316px;
+}
+#submitbutton{
+    font-family: 'Signika Negative', sans-serif;
+    margin-top: 15px;
+    border: none;
+    border-radius: 25px;
+    height: 34px;
+    width: 76px;
+    background-color: rgb(142, 139, 130);
+    color: rgb(243, 243, 243);
+    transition: .25s;
+}
+#submitbutton:hover{
+    background-color: rgb(52, 52, 52);
+    transition: .25s;
+    text-decoration: none;
+}
+/*contact ending*/
+
+
+
+/*footer starting*/
+
+footer{
+    padding: 30px;
+    background-color: rgb(52, 52, 52);
+}
+footer #footer1{
+    height: 346px;
+}
+footer h3{
+    font-family: 'Jost', sans-serif;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    width: 180px;
+    text-transform: capitalize;
+}
+footer p{
+    font-family: 'Cairo', sans-serif;
+}
+
+/* get in touch start */
+#getintouchheading{
+    text-align: left;
+    color: rgb(233, 220, 190);
+    padding: 10px;
+    padding-left: 0px;
+}
+#getintouchcontent{
+    font-size: 16px;
+    color: rgb(243, 243, 243);
+    padding: 5px;
+}
+#getintouchcontent a{
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+    transition: .25s;
+}
+#getintouchcontent a:hover{
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+    border-bottom: 1px solid rgb(243, 243, 243);
+    transition: .25s
+    ;
+}
+#socialmedia p{
+    color: rgb(243, 243, 243);
+    margin-top: 20px;
+    
+}
+#socialmedia a{
+    margin-top: 40px;
+    letter-spacing: 6px;
+    font-size: 32px;
+}
+#socialmedia .icon:hover{
+    transition: .3s;
+    color: rgb(243, 243, 243);
+}
+#socialmedia .icon{
+    color: rgb(142, 139, 130);
+    transition: .3s;
+}
+
+/* populat links start*/
+#popularlinkheading{
+    color: rgb(233, 220, 190);
+    padding: 10px;
+    padding-left: 0px;
+}
+#popularlinkcontent{
+    padding: 5px;
+}
+#popularlinkcontent a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(243, 243, 243);
+    transition: .5s;
+}
+#popularlinkcontent a:hover{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(243, 243, 243);
+    letter-spacing: 2px;
+    transition: .5s;
+}
+
+/* useful links start*/
+#usefullinkheading{
+    text-align: left;
+    color: rgb(233, 220, 190);
+    padding: 10px;
+    padding-left: 0px;
+}
+#usefullinkcontent{
+    padding: 5px;
+}
+#usefullinkcontent a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(243, 243, 243);
+    transition: .5s;
+}
+#usefullinkcontent a:hover{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(243, 243, 243);
+    letter-spacing: 2px;
+    transition: .5s;
+}
+
+/* opening time start*/
+#opening{
+    text-align: left;
+    color: rgb(233, 220, 190);
+    padding: 10px;
+    padding-left: 0px;
+}
+#openingcontent{
+    color: rgb(243, 243, 243);
+    font-size: 17px;
+}
+/*booking table*/
+#booking{
+    text-align: left;
+    color: rgb(233, 220, 190);
+    padding: 10px;
+    padding-left: 0px;
+}
+#bookingcontent{
+    color: rgb(243, 243, 243);
+}
+#bookingcontent #num{
+    padding: 5px;
+    font-size: 17px;
+    transition: .25s;
+    border: 1px solid rgba(243, 243, 243, .2);
+    border-radius: 2px;
+}
+#bookingcontent #num:hover{
+    font-size: 22px;
+    padding: 5px;
+    transition: .25s;
+    letter-spacing: 4px;
+    border: 1px solid rgb(243, 243, 243);
+    border-radius: 5px;
+}
+
+/*footer2*/
+#footer2{
+    margin-top: 47px;
+}
+#footer2 p{
+    text-align: center;
+    color: rgb(243, 243, 243);
+    font-size: 18px;
+    text-transform: capitalize;
+}
+#footer2 p span{
+    color: rgb(255, 157, 77);
+}
+
+
+/* topup arrow start*/
+#topup a{
+    position: fixed;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    font-size: 22px;
+    right: 15px;
+    bottom: 15px;
+    transition: .6s;
+    background-color: rgb(142, 139, 130);
+    border-radius: 44px;
+    z-index: 10;
+}
+#topup a:hover{
+    position: fixed;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: -1;
+    font-size: 22px;
+    right: 15px;
+    bottom: 15px;
+    transition: .7s;
+    background-color: rgb(52, 52, 52);
+    border-radius: 44px;
+    z-index: 10;
+}
+#topup i{
+    padding: 10px;
+    color: rgb(243, 243, 243);
+}
+/* topup arrow end*/
+/*footer end*/
